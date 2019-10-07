@@ -3,6 +3,8 @@ html, body {
     margin: 0;
     font-family:'Poppins', sans-serif;
     overflow-x: hidden;
+    background: linear-gradient(89.34deg, #0000FF 27.66%, #00FFFF 133.05%);
+
 }
 
 h1 {
@@ -16,6 +18,15 @@ h1 {
     /* clip hackery */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 25px;
+    line-height: 30px;
 }
 
 p{
@@ -66,7 +77,6 @@ p{
 }    
 
 .bienvenida{
-    background: linear-gradient(98.41deg, #0000FF 38.23%, #00FFFF 106.54%);
     height: 760px;
     width: 100%;
 }
@@ -81,7 +91,6 @@ p{
 .emojis{
     width: 317px;
     height: 366px;
-    margin: 0 auto 0 auto;
     position: relative;
     left: 0px;
     top: 20%;
@@ -90,8 +99,6 @@ p{
 }
 
 .conocenos{
-    background: linear-gradient(279.4deg, #0000FF 54.11%, #00FFFF 107.05%);
-    transform: matrix(-1, 0, 0, 1, 0, 0);;
     height: 1921px;
     width: 100%;
 }
