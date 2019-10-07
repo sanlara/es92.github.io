@@ -1,0 +1,76 @@
+/*Home*/
+html, body {
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    background: linear-gradient(98.41deg, #0000FF 38.23%, #00FFFF 106.54%);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #FAAB2A;
+    text-align: left;
+    margin-bottom: 25px;
+    line-height: 35px;
+    background: linear-gradient(180deg, #00FFC4 -8.89%, #00B2FF 100.73%););
+    /* clip hackery */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 25px;
+    line-height: 24px;
+}
+
+.bold{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 25px;
+    line-height: 24px;
+}
+
+.link{
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 25px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.logo{
+    cursor: pointer;
+    position: relative;
+    left: 7%;
+    top: 40px;
+    z-index: 1;
+}
+
+.bienvenida{
+    background: linear-gradient(98.41deg, #0000FF 38.23%, #00FFFF 106.54%);
+    height: 850px;
+    width: 100%;
+}
+
+.wrapper-bienvenida{
+    position: relative;
+    left: 7%;
+    top: 7%;
+}
+
+.emojis{
+    width: 317px;
+    height: 366px;
+    position: relative;
+    left: 0px;
+    z-index: 1;
+}
+
