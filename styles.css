@@ -2,7 +2,7 @@
 html, body {
     margin: 0;
     font-family:'Poppins', sans-serif;
-    background: linear-gradient(98.41deg, #0000FF 38.23%, #00FFFF 106.54%);
+    overflow-x: hidden;
 }
 
 h1 {
@@ -67,7 +67,7 @@ p{
 
 .bienvenida{
     background: linear-gradient(98.41deg, #0000FF 38.23%, #00FFFF 106.54%);
-    height: 850px;
+    height: 760px;
     width: 100%;
 }
 
@@ -87,4 +87,11 @@ p{
     top: 20%;
     z-index: 1;
     text-align: center;
+}
+
+.conocenos{
+    background: linear-gradient(279.4deg, #0000FF 54.11%, #00FFFF 107.05%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);;
+    height: 1921px;
+    width: 100%;
 }
