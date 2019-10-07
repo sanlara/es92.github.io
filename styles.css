@@ -77,8 +77,9 @@ p{
 }    
 
 .bienvenida{
-    height: 1260px;
+    height: 1560px;
     width: 100%;
+    
 }
 
 .wrapper-bienvenida{
@@ -86,7 +87,7 @@ p{
     position: relative;
     left: 0%;
     top: 4%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 100px auto;
 }
 
 .emojis{
