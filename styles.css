@@ -64,12 +64,13 @@ p{
     position: relative;
     left: 7%;
     top: 7%;
+    margin: 0 auto 0 auto;
 }
 
 .emojis{
     width: 317px;
     height: 366px;
-    margin: 0 auto 100px auto;
+    margin: 0 auto 0 auto;
     position: relative;
     left: 0px;
     top: 20%;
