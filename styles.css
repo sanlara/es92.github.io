@@ -49,10 +49,21 @@ p{
 .logo{
     cursor: pointer;
     position: relative;
-    left: 7%;
+    left: 9%;
     top: 40px;
     z-index: 1;
 }
+
+.menu{
+    height: 30px;
+    width: 42px;
+    position: absolute;
+    top: 54px;
+    right: 8%;
+    z-index: 3;
+    cursor: pointer;
+    fill: #ffffff;
+}    
 
 .bienvenida{
     background: linear-gradient(98.41deg, #0000FF 38.23%, #00FFFF 106.54%);
@@ -62,7 +73,7 @@ p{
 
 .wrapper-bienvenida{
     position: relative;
-    left: 7%;
+    left: 9%;
     top: 7%;
     margin: 0 auto 0 auto;
 }
