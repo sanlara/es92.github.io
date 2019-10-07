@@ -77,7 +77,7 @@ p{
 }    
 
 .bienvenida{
-    height: 1760px;
+    height: 1260px;
     width: 100%;
 }
 
@@ -100,3 +100,10 @@ p{
     margin-bottom: 35px;
 }
 
+.equipomobile{
+    width: 405x;
+    height: 399px;
+    text-align: center;
+    margin: 0 0 0 auto;
+    margin-bottom: 35px;
+}
