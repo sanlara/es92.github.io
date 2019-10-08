@@ -211,19 +211,19 @@ p{
 
 .img_latina{
     width: 378px;
-    height: 397px;
+    height: 480px;
     text-align: center;
     margin: 0 0 15px auto;
     position: relative;
     left: 0%;
-    top: 120px;
+    top: 100px;
 }
 
 .wrapper-latina2{
     max-width: 80%;
     position: relative;
     left: 8%;
-    top: 15%;
+    top: 12%;
 }
 
 .clientes{
