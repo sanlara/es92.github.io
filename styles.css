@@ -259,7 +259,7 @@ p{
 }
 
 .contacto{
-    height: 450px;
+    height: 520px;
     width: 100%;
 }
 
@@ -267,7 +267,7 @@ p{
     position: relative;
     left: 10%;
     top: 14%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .wrapper-contacto2{
@@ -281,6 +281,10 @@ p{
     position: relative;
     left: 10%;
     top: 8%;
+    background: linear-gradient(180deg, #00FFC4 -8.89%, #00B2FF 100.73%););
+    /* clip hackery */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contacto p{
