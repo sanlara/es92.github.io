@@ -286,3 +286,14 @@ p{
 .contacto p{
     margin-bottom: 10px;
 }
+
+.footer{
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    line-height: 24px;
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
