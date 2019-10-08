@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     font-family:'Poppins', sans-serif;
     overflow-x: hidden;
-    background: linear-gradient(89.34deg, #0000FF 27.66%, #00FFFF 133.05%);
+    background: linear-gradient(90.34deg, #0000FF 27.66%, #00FFFF 133.05%);
 
 }
 
@@ -40,6 +40,10 @@ h3 {
     margin-inline-end: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 p{
     font-size: 14px;
     font-weight: 400;
@@ -63,11 +67,12 @@ p{
 
 .link{
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     color: #ffffff;
     text-align: left;
     margin-bottom: 25px;
     line-height: 24px;
+    text-decoration: none;
 }
 
 .logo{
@@ -101,6 +106,24 @@ p{
     left: 0%;
     top: 2%;
     margin: 0 auto 100px auto;
+}
+
+.circulo{
+    fill: white;
+    position: absolute;
+    left: 54%;
+    top: 19.2%;
+    margin: 0 auto 0px auto;
+}
+
+.circulo:hover {
+    fill: #0126A9;
+    cursor: pointer;
+}
+
+.flecha:hover{
+    fill: white;
+    cursor: pointer;
 }
 
 .emojis{
