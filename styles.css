@@ -167,3 +167,61 @@ p{
     left: 8%;
     top: 15%;
 }
+
+.guayaquilcity{
+    height: 1100px;
+    width: 100%;
+    background: linear-gradient(99.33deg, #219FFF -5.8%, #002640 80.51%);
+}
+
+.wrapper-guayaquilcity{
+    position: relative;
+    left: 8%;
+    top: 8%;
+}
+
+.img_guayaquilcity{
+    width: 375px;
+    height: 430px;
+    text-align: center;
+    margin: 0 0 15px auto;
+    position: relative;
+    left: 0%;
+    top: 120px;
+}
+
+.wrapper-guayaquilcity2{
+    max-width: 80%;
+    position: relative;
+    left: 8%;
+    top: 15%;
+}
+
+.latina{
+    height: 1100px;
+    width: 100%;
+    background: linear-gradient(180deg, #2950D3 -10.04%, #191D29 100%);;
+}
+
+.wrapper-latina{
+    position: relative;
+    left: 8%;
+    top: 8%;
+}
+
+.img_latina{
+    width: 375px;
+    height: 430px;
+    text-align: center;
+    margin: 0 0 15px auto;
+    position: relative;
+    left: 0%;
+    top: 120px;
+}
+
+.wrapper-latina2{
+    max-width: 80%;
+    position: relative;
+    left: 8%;
+    top: 15%;
+}
