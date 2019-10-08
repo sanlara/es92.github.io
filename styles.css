@@ -121,7 +121,7 @@ p{
     cursor: pointer;
 }
 
-.flecha:hover{
+.circulo:hover .flecha{
     fill: white;
     cursor: pointer;
 }
