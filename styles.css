@@ -138,15 +138,11 @@ p{
     background: linear-gradient(180deg, #F4C14F 0%, #F4774F 100%);;
 }
 
-hr{
-    display: block;
-    align-content: left;
-    border-width: 2px;
-    width: 98px;
-    border: 1px solid white;
+.linea{ 
     position: relative;
     left: 0px;
     top: 0px;
+    margin-bottom: 30px;
 }
 
 .wrapper-viveviajando{
@@ -169,5 +165,5 @@ hr{
     max-width: 80%;
     position: relative;
     left: 8%;
-    top: 3%;
+    top: 15%;
 }
