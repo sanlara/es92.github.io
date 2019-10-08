@@ -29,6 +29,17 @@ h2 {
     line-height: 30px;
 }
 
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 30px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 p{
     font-size: 14px;
     font-weight: 400;
@@ -36,6 +47,9 @@ p{
     text-align: left;
     margin-bottom: 25px;
     line-height: 24px;
+    margin-block-start: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .bold{
@@ -130,20 +144,30 @@ hr{
     border-width: 2px;
     width: 98px;
     border: 1px solid white;
+    position: relative;
+    left: 0px;
+    top: 0px;
 }
 
 .wrapper-viveviajando{
-    width: 323px;
     position: relative;
-    left: 10%;
-    top: 2%;
-    margin: 0 auto 100px auto;
+    left: 8%;
+    top: 8%;
 }
 
 .img_viveviajando{
     width: 375px;
     height: 430px;
     text-align: center;
-    margin: 0 0 0 auto;
-    margin-bottom: 15px;
+    margin: 0 0 15px auto;
+    position: relative;
+    left: 0%;
+    top: 120px;
+}
+
+.wrapper-viveviajando2{
+    max-width: 80%;
+    position: relative;
+    left: 8%;
+    top: 3%;
 }
