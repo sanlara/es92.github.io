@@ -257,3 +257,32 @@ p{
     color: #545454;
     margin-top: 20px;
 }
+
+.contacto{
+    height: 450px;
+    width: 100%;
+}
+
+.wrapper-contacto{
+    position: relative;
+    left: 10%;
+    top: 14%;
+    margin-bottom: 50px;
+}
+
+.wrapper-contacto2{
+    position: relative;
+    left: 10%;
+    top: 8%;
+}
+
+.contacto h3{
+    margin-top: 20px;
+    position: relative;
+    left: 10%;
+    top: 8%;
+}
+
+.contacto p{
+    margin-bottom: 10px;
+}
