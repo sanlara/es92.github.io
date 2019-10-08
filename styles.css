@@ -225,3 +225,35 @@ p{
     left: 8%;
     top: 15%;
 }
+
+.clientes{
+    height: 700px;
+    width: 100%;
+    background: #ffffff;
+}
+
+.wrapper-clientes{
+    max-width: 80%;
+    position: relative;
+    left: 8%;
+    top: 8%;
+}
+
+.img_clientes{
+    width: 323px;
+    height: 255px;
+    text-align: center;
+    margin: 0 auto 15px auto;
+    position: relative;
+    left: 6%;
+    top: 120px;
+}
+
+.clientes h3{
+    color: #0000FF;
+}
+
+.clientes p{
+    color: #545454;
+    margin-top: 20px;
+}
