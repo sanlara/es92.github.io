@@ -169,6 +169,16 @@ p{
     cursor: pointer;
 }
 
+.flecha-top{
+    height: 45px;
+    position: fixed;
+    left: 85%;
+    top: 90%;
+    z-index: 3;
+    margin: 0 auto 0px auto;
+}
+
+
 .emojis{
     width: 317px;
     height: 366px;
