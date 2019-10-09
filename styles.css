@@ -97,7 +97,6 @@ p{
 .bienvenida{
     height: 2700px;
     width: 100%;
-    
 }
 
 .wrapper-bienvenida{
@@ -112,7 +111,7 @@ p{
     fill: white;
     position: absolute;
     left: 54%;
-    top: 19.2%;
+    top: 20%;
     margin: 0 auto 0px auto;
 }
 
@@ -122,6 +121,50 @@ p{
 }
 
 .circulo:hover .flecha{
+    fill: white;
+    cursor: pointer;
+}
+
+.circulo2{
+    fill: white;
+    position: absolute;
+    left: 34%;
+    top: 88%;
+    margin: 0 auto 0px auto;
+}
+
+.flecha2{
+    fill: #F4774F;
+}
+
+.circulo2:hover {
+    fill: #0126A9;
+    cursor: pointer;
+}
+
+.circulo2:hover .flecha{
+    fill: white;
+    cursor: pointer;
+}
+
+.circulo3{
+    fill: white;
+    position: absolute;
+    left: 34%;
+    top: 89%;
+    margin: 0 auto 0px auto;
+}
+
+.flecha3{
+    fill: #191D29;
+}
+
+.circulo3:hover {
+    fill: #0126A9;
+    cursor: pointer;
+}
+
+.circulo3:hover .flecha{
     fill: white;
     cursor: pointer;
 }
