@@ -170,6 +170,7 @@ p{
 }
 
 .flecha-top{
+    display: none;
     height: 45px;
     position: fixed;
     left: 85%;
