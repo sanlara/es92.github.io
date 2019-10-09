@@ -411,7 +411,7 @@ p{
         position: relative;
         left: 0%;
         top: 2%;
-        margin: 0 auto 50px auto;
+        margin: 0 auto 200px auto;
     }
 
     .circulo{
@@ -427,7 +427,7 @@ p{
         height: 672px;
         position: relative;
         left: 5px;
-        top: 20%;
+        top: 25%;
         z-index: 1;
         text-align: center;
         margin-bottom: 35px;
