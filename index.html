@@ -7,6 +7,7 @@
     <title>Estudio 92 | Consultora de Branding y Digital Business</title>
     <meta name="Description" CONTENT="Somos un equipo de expertos en diseño, publicidad y tecnología. Creemos firmemente que la fórmula para crear marcas de éxito es una combinación de insights ejecutables, estrategia de negocio y creatividad.">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script> //smooth scrolling
         $(document).ready(function(){
@@ -47,7 +48,7 @@
 
     <main class="main">
         <section class="bienvenida" id="bienvenida">
-            <div class="wrapper-bienvenida">
+            <div class="wrapper-bienvenida" data-aos="fade-up" data-aos-duration="1100">
                 <h1 class="titulo-principal">WE CREATE<br>DIGITAL<br>BUSINESS</h1>
                     <p>Somos <span class="bold">Estudio 92.</span> Nos especializamos en<br> construir marcas, estrategias y productos<br>digitales de primer nivel.</p>
                     
@@ -171,6 +172,9 @@
             </section>
 
     </main>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
