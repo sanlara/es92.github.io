@@ -235,6 +235,9 @@ p{
 .img_viveviajando{
     width: 375px;
     height: 430px;
+    background: url(img/fotoviveviajando_mobile.png);
+    background-size: cover;
+    background-position: center;
     text-align: center;
     margin: 0 0 15px auto;
     position: relative;
@@ -261,21 +264,24 @@ p{
     top: 8%;
 }
 
-.img_guayaquilcity{
-    width: 375px;
-    height: 430px;
-    text-align: center;
-    margin: 0 0 15px auto;
-    position: relative;
-    left: 0%;
-    top: 120px;
-}
-
 .wrapper-guayaquilcity2{
     max-width: 80%;
     position: relative;
     left: 8%;
     top: 15%;
+}
+
+.img_guayaquilcity{
+    width: 375px;
+    height: 452px;
+    background: url(img/armadura_mobile.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0 0 15px auto;
+    position: relative;
+    left: 0%;
+    top: 120px;
 }
 
 .latina{
@@ -393,17 +399,9 @@ p{
 
     }
 
-    p{
-        font-size: 16px;
-       
-    }
-
-    .bold{
-        font-size: 16px;
-    }
-
-    br{
-        display: none;
+    .bienvenida{
+        height: 2900px;
+        width: 100%;
     }
 
     .wrapper-bienvenida{
@@ -418,20 +416,89 @@ p{
         fill: white;
         position: absolute;
         left: 26%;
-        top: 18.5%;
+        top: 17%;
         margin: 0 auto 0px auto;
     }
 
     .emojis{
-        width: 577px;
-        height: 672px;
+        width: 550px;
+        height: 655px;
         position: relative;
-        left: 5px;
-        top: 25%;
-        z-index: 1;
-        text-align: center;
-        margin-bottom: 35px;
+        left: 8px;
+        top: 35%;
     }
 
+    .titulo-principal br{
+        display: none;
+    }
     
+    .descripcion-bienvenida br{
+        display: none;
+    }
+
+    .equipomobile{
+        width: 742px;
+        height: 792px;
+        text-align: center;
+        margin: 45px 0 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .equipomobile2{
+        display: none;
+    }
+
+    .viveviajando{
+        height: 1200px;
+        width: 100%;
+        background: linear-gradient(180deg, #F4C14F 0%, #F4774F 100%);;
+    }
+
+    .img_viveviajando{
+        width: 733px;
+        height: 575px;
+        background: url(img/fotoviveviajando_tablet.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: -5%;
+        top: 120px;
+    }
+
+    .circulo2{
+        fill: white;
+        position: absolute;
+        left: 15.5%;
+        top: 83%;
+        margin: 0 auto 0px auto;
+    }
+
+    .guayaquilcity{
+        height: 1300px;
+        width: 100%;
+        background: linear-gradient(99.33deg, #219FFF -5.8%, #002640 80.51%);
+    }
+
+    .img_guayaquilcity{
+        width: 686px;
+        height: 671px;
+        background: url(img/armadura_tablet.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: 0%;
+        top: 160px;
+    }
+
+    .circulo3{
+        fill: white;
+        position: absolute;
+        left: 16%;
+        top: 83%;
+        margin: 0 auto 0px auto;
+    }
 }
