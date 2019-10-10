@@ -547,5 +547,34 @@ p{
     .clientes br{
         display: none;
     }
+
+    .wrapper-contacto{
+        position: relative;
+        left: 40%;
+        top: 20%;
+        margin-bottom: 70px;
+    }
+    
+    .wrapper-contacto2{
+        position: relative;
+        left: 70%;
+        top: -25%;
+    }
+
+    .footer{
+        font-size: 12px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: left;
+        line-height: 24px;
+        position: relative;
+        left: 30%;
+        top: -7%;
+    }
+
+    .contacto{
+        height: 390px;
+        width: 100%;
+    }
     
 }
