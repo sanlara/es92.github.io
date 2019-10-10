@@ -527,6 +527,12 @@ p{
         top: 100px;
     }
 
+    .clientes{
+        height: 600px;
+        width: 100%;
+        background: #ffffff;
+    }
+
     .img_clientes{
         width: 582px;
         height: 261px;
@@ -534,7 +540,12 @@ p{
         background-size: cover;
         background-position: center;
         position: relative;
-        left: -1%;
+        left: -2%;
         top: 90px;
     }
+
+    .clientes br{
+        display: none;
+    }
+    
 }
