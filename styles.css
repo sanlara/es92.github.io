@@ -534,14 +534,14 @@ p{
     }
 
     .img_clientes{
-        width: 582px;
-        height: 261px;
+        width: 590px;
+        height: 269px;
         background: url(img/logos_clientes_es92_tablet.png);
         background-size: cover;
         background-position: center;
         position: relative;
         left: -2%;
-        top: 90px;
+        top: 80px;
     }
 
     .clientes br{
@@ -569,7 +569,7 @@ p{
         line-height: 24px;
         position: relative;
         left: 30%;
-        top: -7%;
+        top: -10%;
     }
 
     .contacto{
