@@ -193,14 +193,21 @@ p{
 .equipomobile{
     width: 378px;
     height: 401px;
+    background: url(img/team_mobile.png);
+    background-size: cover;
+    background-position: center;
     text-align: center;
     margin: 45px 0 0 auto;
     margin-bottom: 15px;
+    
 }
 
 .equipomobile2{
     width: 378px;
     height: 401px;
+    background: url(img/javier_mobile.png);
+    background-size: cover;
+    background-position: center;
     text-align: center;
     margin: 0 0 0 auto;
     margin-bottom: 15px;
@@ -443,15 +450,25 @@ p{
     }
 
     .equipomobile{
-        width: 768px;
-        height: 825px;
+        width: 433px;
+        height: 419px;
+        background: url(img/team_tablet.png);
+        background-size: cover;
+        background-position: center;
         text-align: center;
         margin: 45px 0 0 auto;
         margin-bottom: 15px;
     }
-
+    
     .equipomobile2{
-        display: none;
+        width: 442px;
+        height: 423px;
+        background: url(img/javier_tablet.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 0 auto;
+        margin-bottom: 15px;
     }
 
     .viveviajando{
