@@ -439,7 +439,7 @@ p{
     }
 
     .bienvenida{
-        height: 1300px;
+        height: 1150px;
         width: 100%;
     }
 
@@ -478,7 +478,28 @@ p{
         margin-bottom: 15px;
         position: relative;
         top: -450px;
-        left: 50%;
+        left: -7%;
+    }
+
+    .presentacion{
+        height: 1000px;
+        width: 100%;
+    }
+    
+    .wrapper-es92{
+        max-width: 40%;
+        position: relative;
+        left: 55%;
+        top: 0%;
+        margin: 0 0 50px 0;
+    }
+
+    .wrapper-expertise{
+        max-width: 40%;
+        position: relative;
+        top: -350px;
+        left: 7%;
+        margin: 0px 0px 50px 0px;
     }
     
     .equipomobile2{
@@ -490,6 +511,9 @@ p{
         text-align: center;
         margin: 0 0 0 auto;
         margin-bottom: 15px;
+        position: relative;
+        top: -820px;
+        left: 8%;
     }
 
     .viveviajando{
