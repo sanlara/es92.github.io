@@ -95,7 +95,7 @@ p{
 }    
 
 .bienvenida{
-    height: 2500px;
+    height: 800px;
     width: 100%;
 }
 
@@ -103,15 +103,21 @@ p{
     max-width: 80%;
     position: relative;
     left: 0%;
-    top: 2%;
+    top: 8%;
     margin: 0 auto 50px auto;
+}
+
+.wrapper-flecha{
+    position: relative;
+    left: 0%;
+    top: 10px;
 }
 
 .circulo{
     fill: white;
     position: absolute;
-    left: 54%;
-    top: 20%;
+    top: -3px;
+    left: 160px;
     margin: 0 auto 0px auto;
 }
 
@@ -183,11 +189,11 @@ p{
     width: 317px;
     height: 366px;
     position: relative;
-    left: -15px;
-    top: 20%;
+    top: 80px;
+    left: 10%;
     z-index: 1;
     text-align: center;
-    margin-bottom: 35px;
+    margin: auto;
 }
 
 .equipomobile{
@@ -199,7 +205,27 @@ p{
     text-align: center;
     margin: 45px 0 0 auto;
     margin-bottom: 15px;
-    
+}
+
+.presentacion{
+    height: 1780px;
+    width: 100%;
+}
+
+.wrapper-es92{
+    max-width: 80%;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    margin: 0 auto 50px auto;
+}
+
+.wrapper-expertise{
+    max-width: 80%;
+    position: relative;
+    left: 0%;
+    top: 2%;
+    margin: 0 auto 50px auto;
 }
 
 .equipomobile2{
@@ -217,7 +243,7 @@ p{
     width: 300px;
     height: 181px;
     text-align: center;
-    margin: 15px 0 0 auto;
+    margin: 15px 0 30px auto;
 }
 
 .viveviajando{
@@ -456,8 +482,11 @@ p{
         background-size: cover;
         background-position: center;
         text-align: center;
-        margin: 45px 0 0 auto;
+        margin: 0 0 0 0;
         margin-bottom: 15px;
+        position: relative;
+        top: -450px;
+        left: 50%;
     }
     
     .equipomobile2{
