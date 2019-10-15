@@ -482,7 +482,7 @@ p{
     }
 
     .presentacion{
-        height: 1000px;
+        height: 1200px;
         width: 100%;
     }
     
@@ -497,7 +497,7 @@ p{
     .wrapper-expertise{
         max-width: 40%;
         position: relative;
-        top: -350px;
+        top: -250px;
         left: 7%;
         margin: 0px 0px 50px 0px;
     }
@@ -512,7 +512,7 @@ p{
         margin: 0 0 0 auto;
         margin-bottom: 15px;
         position: relative;
-        top: -820px;
+        top: -700px;
         left: 8%;
     }
 
