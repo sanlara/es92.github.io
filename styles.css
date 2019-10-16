@@ -885,7 +885,7 @@ p{
     .wrapper-clientes{
         max-width: 20%;
         position: relative;
-        left: 8%;
+        left: 10%;
         top: 30%;
     }
 
@@ -897,7 +897,7 @@ p{
         background-position: center;
         position: relative;
         left: 16%;
-        top: -70px;
+        top: -90px;
     }
 
     .clientes br{
