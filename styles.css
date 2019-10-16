@@ -753,10 +753,10 @@ p{
     }
 
     .wrapper-es92{
-        max-width: 30%;
+        max-width: 28%;
         position: relative;
-        left: 58%;
-        top: 280px;
+        left: 62%;
+        top: 350px;
         margin: 0 20px 50px 20px;
     }
 
@@ -770,14 +770,14 @@ p{
         margin: 0 0 0 auto;
         margin-bottom: 15px;
         position: relative;
-        top: -450px;
+        top: -500px;
         left: 8%;
     }
 
     .wrapper-expertise{
-        max-width: 25%;
+        max-width: 28%;
         position: relative;
-        top: 180px;
+        top: 175px;
         left: 7%;
         margin: 0px 0px 50px 0px;
     }
