@@ -843,6 +843,47 @@ p{
         top: -43%;
     }
 
+    .guayaquilcity{
+        height: 1100px;
+        width: 100%;
+        background: linear-gradient(121.12deg, #219FFF -5.8%, #002640 80.51%);;
+    }
+
+    .circulo3{
+        fill: white;
+        position: absolute;
+        left: 28%;
+        top: 88%;
+        margin: 0 auto 0px auto;
+    }
+
+    .wrapper-guayaquilcity{
+        position: relative;
+        left: 50%;
+        top: 20%;
+        z-index: 1;
+    }
+
+    .wrapper-guayaquilcity2{
+        max-width: 25%;
+        position: relative;
+        left: 8%;
+        top: -50%;
+    }
+
+    .img_guayaquilcity{
+        width: 897px;
+        height: 819px;
+        background: url(img/armadura_1200.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: 0%;
+        top: 40px;
+    }
+    
     .latina{
         height: 1050px;
         width: 100%;
