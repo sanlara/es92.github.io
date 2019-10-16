@@ -857,18 +857,36 @@ p{
         margin: 0 auto 0px auto;
     }
 
+    .circulo3:hover {
+        fill: #F2F2F2;
+        cursor: pointer;
+    }
+
     .wrapper-guayaquilcity{
+        max-width: 25%;
         position: relative;
-        left: 50%;
+        left: 20%;
         top: 20%;
         z-index: 1;
+        text-align: right;
+    }
+
+    .wrapper-guayaquilcity p{
+        text-align: right;
+    }
+
+   .guayaquilcity .linea{ 
+        position: relative;
+        left: 120px;
+        top: 53px;
+        margin-bottom: 30px;
     }
 
     .wrapper-guayaquilcity2{
         max-width: 25%;
         position: relative;
         left: 8%;
-        top: -50%;
+        top: -45%;
     }
 
     .img_guayaquilcity{
@@ -892,9 +910,16 @@ p{
 
     .wrapper-latina{
         position: relative;
-        left: 49%;
+        left: 53%;
         top: 200px;
         z-index: 1;
+    }
+
+    .latina .linea{ 
+        position: relative;
+        left: -120px;
+        top: 53px;
+        margin-bottom: 30px;
     }
 
     .img_latina{
@@ -938,7 +963,7 @@ p{
         background-position: center;
         position: relative;
         left: 16%;
-        top: -90px;
+        top: -130px;
     }
 
     .clientes br{
