@@ -790,6 +790,37 @@ p{
         margin: 0px 0px 50px 0px;
     }
 
+    .viveviajando{
+        height: 950px;
+        width: 100%;
+        background: linear-gradient(180deg, #F4C14F 0%, #F4774F 100%);;
+    }
+
+    .wrapper-viveviajando{
+        position: relative;
+        left: 60%;
+        top: 115px;
+    }
+
+    .img_viveviajando{
+        width: 844px;
+        height: 690px;
+        background: url(img/fotoviveviajando_1200.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: -42%;
+        top: 0px;
+    }
+
+    .wrapper-viveviajando2{
+        max-width: 30%;
+        position: relative;
+        left: 60%;
+        top: -43%;
+    }
     
 
 }
