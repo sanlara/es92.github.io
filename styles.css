@@ -4,8 +4,42 @@ html, body {
     font-family:'Poppins', sans-serif;
     overflow-x: hidden;
     background: linear-gradient(90.34deg, #0000FF 27.66%, #00FFFF 133.05%);
-
 }
+
+#navbar {
+    background: linear-gradient(90.34deg, #0000FF 27.66%, #00FFFF 133.05%);
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 99;
+    display: block;
+    float: flex;
+    padding: 20px 0px 20px 0px;
+}
+
+#navbar.blue{
+    background: blue;
+}
+
+.logo{
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    top: 20px;
+    left: 9%;   
+}
+
+.menu{
+    height: 32px;
+    width: 44px;
+    z-index: 3;
+    cursor: pointer;
+    fill: #ffffff;
+    position: relative;
+    top: 20px;
+    left: 42%;
+}    
 
 h1 {
     font-size: 40px;
@@ -75,25 +109,6 @@ p{
     text-decoration: none;
 }
 
-.logo{
-    cursor: pointer;
-    position: relative;
-    left: 9%;
-    top: 40px;
-    z-index: 1;
-}
-
-.menu{
-    height: 32px;
-    width: 44px;
-    position: absolute;
-    top: 54px;
-    right: 8%;
-    z-index: 3;
-    cursor: pointer;
-    fill: #ffffff;
-}    
-
 .bienvenida{
     height: 800px;
     width: 100%;
@@ -103,7 +118,7 @@ p{
     max-width: 80%;
     position: relative;
     left: 0%;
-    top: 8%;
+    top: 15%;
     margin: 0 auto 50px auto;
 }
 
@@ -189,7 +204,7 @@ p{
     width: 379px;
     height: 385px;
     position: relative;
-    top: 80px;
+    top: 120px;
     left: 3%;
     z-index: 1;
     text-align: center;
@@ -246,7 +261,7 @@ p{
     background-size: cover;
     background-position: center;
     text-align: center;
-    margin: 15px 0 60px auto;
+    margin: 15px 0 60px 0px;
 }
 
 .viveviajando{
@@ -664,25 +679,6 @@ p{
         display: block;
     }
 
-    .logo{
-        cursor: pointer;
-        position: relative;
-        left: 9%;
-        top: 60px;
-        z-index: 1;
-    }
-    
-    .menu{
-        height: 35px;
-        width: 47px;
-        position: absolute;
-        top: 68px;
-        right: 8%;
-        z-index: 3;
-        cursor: pointer;
-        fill: #ffffff;
-    }    
-
     .bienvenida{
         height: 680px;
         width: 100%;
@@ -1032,25 +1028,6 @@ p{
     .titulo-principal br{
         display: block;
     }
-
-    .logo{
-        cursor: pointer;
-        position: relative;
-        left: 11.5%;
-        top: 60px;
-        z-index: 1;
-    }
-    
-    .menu{
-        height: 35px;
-        width: 47px;
-        position: absolute;
-        top: 68px;
-        right: 13%;
-        z-index: 3;
-        cursor: pointer;
-        fill: #ffffff;
-    }    
 
     .bienvenida{
         height: 880px;
