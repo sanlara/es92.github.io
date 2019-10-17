@@ -1207,7 +1207,7 @@ p{
         background: linear-gradient(180deg, #F4C14F 0%, #F4774F 100%);;
     }
 
-    .viveviajando h3{
+    h3{
         font-size: 35px;
         margin-bottom: 5px;
     }
@@ -1247,7 +1247,7 @@ p{
     }
 
     .guayaquilcity{
-        height: 1100px;
+        height: 1000px;
         width: 100%;
         background: linear-gradient(121.12deg, #219FFF -5.8%, #002640 80.51%);;
     }
@@ -1268,8 +1268,8 @@ p{
     .wrapper-guayaquilcity{
         max-width: 25%;
         position: relative;
-        left: 20%;
-        top: 20%;
+        left: 30%;
+        top: 14.5%;
         z-index: 1;
         text-align: right;
     }
@@ -1286,27 +1286,27 @@ p{
     }
 
     .wrapper-guayaquilcity2{
-        max-width: 25%;
+        max-width: 18%;
         position: relative;
-        left: 8%;
-        top: -45%;
+        left: 15%;
+        top: -62%;
     }
 
     .img_guayaquilcity{
-        width: 897px;
-        height: 819px;
-        background: url(img/armadura_1200.png);
+        width: 1084px;
+        height: 886px;
+        background: url(img/armadura_imac.png);
         background-size: cover;
         background-position: center;
         text-align: center;
         margin: 0 0 15px auto;
         position: relative;
         left: 0%;
-        top: 40px;
+        top: -40px;
     }
     
     .latina{
-        height: 1050px;
+        height: 1000px;
         width: 100%;
         background: linear-gradient(180deg, #2950D3 -10.04%, #191D29 100%);;
     }
