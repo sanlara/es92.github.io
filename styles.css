@@ -1210,6 +1210,7 @@ p{
     h3{
         font-size: 35px;
         margin-bottom: 5px;
+        line-height: 40px;
     }
 
     .linea{ 
@@ -1346,7 +1347,7 @@ p{
     }
 
     .clientes{
-        height: 800px;
+        height: 1000px;
         width: 100%;
         background: #ffffff;
     }
@@ -1359,14 +1360,14 @@ p{
     }
 
     .img_clientes{
-        width: 705px;
-        height: 492px;
-        background: url(img/logos_clientes_es92_1200.png);
+        width: 895px;
+        height: 592px;
+        background: url(img/logos_clientes_es92_imac.png);
         background-size: cover;
         background-position: center;
         position: relative;
         left: 16%;
-        top: -130px;
+        top: -50px;
     }
 
     .clientes br{
