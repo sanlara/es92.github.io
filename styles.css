@@ -34,6 +34,18 @@ nav.white{
     left: 9%;   
 }
 
+.menu{
+    height: 32px;
+    width: 44px;
+    z-index: 3;
+    cursor: pointer;
+    fill: #ffffff;
+    position: relative;
+    z-index: 1;
+    top: -10px;
+    left: 80%;
+}   
+
 nav.white .logo{
     width: 132px;
     height: 46px;
@@ -47,16 +59,10 @@ nav.white .logo{
     left: 9%;   
 }
 
-.menu{
-    height: 32px;
-    width: 44px;
-    z-index: 3;
-    cursor: pointer;
-    fill: #ffffff;
-    position: relative;
-    top: -10px;
-    left: 80%;
-}    
+nav.white .menu{
+    fill: #2515E3;
+    z-index: 1;
+}   
 
 h1 {
     font-size: 40px;
