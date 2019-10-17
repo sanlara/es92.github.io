@@ -1002,6 +1002,391 @@ p{
         left: 70%;
         top: -35%;
     }
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+    html, body {
+        margin: 0;
+        font-family:'Poppins', sans-serif;
+        overflow-x: hidden;
+        background: linear-gradient(91.55deg, #0000FF 38.7%, #00FFFF 98.6%);
+    
+    }
+
+    h1 {
+        font-size: 105px;
+        font-weight: 900;
+        margin-bottom: 30px;
+        line-height: 85px;
+    }
+
+    .titulo-principal br{
+        display: block;
+    }
+
+    .logo{
+        cursor: pointer;
+        position: relative;
+        left: 11.5%;
+        top: 60px;
+        z-index: 1;
+    }
+    
+    .menu{
+        height: 35px;
+        width: 47px;
+        position: absolute;
+        top: 68px;
+        right: 13%;
+        z-index: 3;
+        cursor: pointer;
+        fill: #ffffff;
+    }    
+
+    .bienvenida{
+        height: 880px;
+        width: 100%;
+    }
+
+    .bienvenida p{
+        font-size: 18px;   
+        font-weight: 300;
+        line-height: 28px;
+    }
+
+    .bienvenida .bold{
+        font-size: 18px;   
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .wrapper-bienvenida{
+        max-width: 30%;
+        position: relative;
+        left: 5%;
+        top: 16%;
+        margin: 0 0px 80px 125px;
+    }
+
+    .circulo{
+        fill: white;
+        position: absolute;
+        top: -2px;
+        left: 225px;
+        margin: 0 auto 0px auto;
+    }
+
+    .circulo2{
+        fill: white;
+        position: absolute;
+        left: 28%;
+        top: 87%;
+        margin: 0 auto 0px auto;
+    }
+
+    .circulo2:hover {
+        fill: #F2F2F2;
+        cursor: pointer;
+    }
+
+    .middle{
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 1;
+    }
+
+    .mouse{
+        width: 20px;
+        height: 33px;
+        border: 2px solid #01D6E4;
+        border-radius: 80px;
+    }
+
+    .mouse::before{
+        content: "";
+        width: 6px;
+        height: 6px;
+        position: absolute;
+        top: 10px;
+        background: #01D6E4;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        opacity: 1;
+        animation: mouse 1.2s infinite;
+    }
+
+    @keyframes mouse {
+        from{
+        opacity: 1;
+        top: 9px;
+        }
+        to{
+        opacity: 0;
+        top: 30px;
+        }
+    }
+
+    .emojis{
+        width: 800px;
+        height: 810px;
+        position: relative;
+        top: -510px;
+        left: 50%;
+    }
+
+    .equipomobile{
+        width: 858px;
+        height: 770px;
+        background: url(img/team_1200.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 0 0;
+        margin-bottom: 15px;
+        position: relative;
+        top: -300px;
+        left: -7%;
+    }
+
+    .presentacion{
+        height: 1850px;
+        width: 100%;
+    }
+
+    .wrapper-es92{
+        max-width: 28%;
+        position: relative;
+        left: 59%;
+        top: 280px;
+        margin: 0 20px 50px 20px;
+    }
+
+    .equipomobile2{
+        width: 906px;
+        height: 770px;
+        background: url(img/javier_1200.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 0 auto;
+        margin-bottom: 15px;
+        position: relative;
+        top: -600px;
+        left: 8%;
+    }
+
+    .wrapper-expertise{
+        max-width: 28%;
+        position: relative;
+        top: 30px;
+        left: 7%;
+        margin: 0px 0px 50px 0px;
+    }
+
+    .viveviajando{
+        height: 950px;
+        width: 100%;
+        background: linear-gradient(180deg, #F4C14F 0%, #F4774F 100%);;
+    }
+
+    .linea{ 
+        position: relative;
+        left: -120px;
+        top: 53px;
+        margin-bottom: 30px;
+    }
+
+    .wrapper-viveviajando{
+        position: relative;
+        left: 49%;
+        top: 200px;
+        z-index: 1;
+    }
+
+    .img_viveviajando{
+        width: 844px;
+        height: 690px;
+        background: url(img/fotoviveviajando_1200.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: -42%;
+        top: 20px;
+    }
+
+    .wrapper-viveviajando2{
+        max-width: 25%;
+        position: relative;
+        left: 62%;
+        top: -43%;
+    }
+
+    .guayaquilcity{
+        height: 1100px;
+        width: 100%;
+        background: linear-gradient(121.12deg, #219FFF -5.8%, #002640 80.51%);;
+    }
+
+    .circulo3{
+        fill: white;
+        position: absolute;
+        left: 28%;
+        top: 88%;
+        margin: 0 auto 0px auto;
+    }
+
+    .circulo3:hover {
+        fill: #F2F2F2;
+        cursor: pointer;
+    }
+
+    .wrapper-guayaquilcity{
+        max-width: 25%;
+        position: relative;
+        left: 20%;
+        top: 20%;
+        z-index: 1;
+        text-align: right;
+    }
+
+    .wrapper-guayaquilcity p{
+        text-align: right;
+    }
+
+   .guayaquilcity .linea{ 
+        position: relative;
+        left: 120px;
+        top: 53px;
+        margin-bottom: 30px;
+    }
+
+    .wrapper-guayaquilcity2{
+        max-width: 25%;
+        position: relative;
+        left: 8%;
+        top: -45%;
+    }
+
+    .img_guayaquilcity{
+        width: 897px;
+        height: 819px;
+        background: url(img/armadura_1200.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: 0%;
+        top: 40px;
+    }
+    
+    .latina{
+        height: 1050px;
+        width: 100%;
+        background: linear-gradient(180deg, #2950D3 -10.04%, #191D29 100%);;
+    }
+
+    .wrapper-latina{
+        position: relative;
+        left: 53%;
+        top: 200px;
+        z-index: 1;
+    }
+
+    .latina .linea{ 
+        position: relative;
+        left: -120px;
+        top: 53px;
+        margin-bottom: 30px;
+    }
+
+    .img_latina{
+        width: 891px;
+        height: 700px;
+        background: url(img/latina_1200.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: -42%;
+        top: 50px;
+    }
+
+    .wrapper-latina2{
+        max-width: 25%;
+        position: relative;
+        left: 62%;
+        top: -35%;
+    }
+
+    .clientes{
+        height: 800px;
+        width: 100%;
+        background: #ffffff;
+    }
+
+    .wrapper-clientes{
+        max-width: 20%;
+        position: relative;
+        left: 10%;
+        top: 30%;
+    }
+
+    .img_clientes{
+        width: 705px;
+        height: 492px;
+        background: url(img/logos_clientes_es92_1200.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        left: 16%;
+        top: -130px;
+    }
+
+    .clientes br{
+        display: block;
+    }
+
+    .contacto h3 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 45px;
+        position: relative;
+        top: 130px;
+        left: 10%;
+    }
+
+    .footer{
+        font-size: 12px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: left;
+        line-height: 24px;
+        position: relative;
+        left: 38%;
+        top: -10%;
+    }
+
+    .wrapper-contacto{
+        position: relative;
+        left: 50%;
+        top: 10%;
+        margin-bottom: 70px;
+    }
+
+    .wrapper-contacto2{
+        position: relative;
+        left: 70%;
+        top: -35%;
+    }
     
 
 }
