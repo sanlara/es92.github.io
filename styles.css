@@ -47,16 +47,7 @@ nav.white{
 }   
 
 nav.white .logo{
-    width: 132px;
-    height: 46px;
-    background: url(img/logoe92_mobile2.svg);
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-    z-index: 1;
-    position: relative;
-    top: 20px;
-    left: 9%;   
+    background: url(img/logoe92_mobile2.svg); 
 }
 
 nav.white .menu{
@@ -487,7 +478,7 @@ p{
         max-width: 80%;
         position: relative;
         left: 0%;
-        top: 2%;
+        top: 12%;
         margin: 0 auto 80px auto;
     }
 
