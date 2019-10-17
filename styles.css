@@ -1202,7 +1202,7 @@ p{
     }
 
     .viveviajando{
-        height: 950px;
+        height: 1100px;
         width: 100%;
         background: linear-gradient(180deg, #F4C14F 0%, #F4774F 100%);;
     }
@@ -1216,29 +1216,29 @@ p{
 
     .wrapper-viveviajando{
         position: relative;
-        left: 49%;
-        top: 200px;
+        left: 43%;
+        top: 220px;
         z-index: 1;
     }
 
     .img_viveviajando{
-        width: 844px;
-        height: 690px;
-        background: url(img/fotoviveviajando_1200.png);
+        width: 1103px;
+        height: 844px;
+        background: url(img/fotoviveviajando_imac.png);
         background-size: cover;
         background-position: center;
         text-align: center;
         margin: 0 0 15px auto;
         position: relative;
-        left: -42%;
+        left: -47%;
         top: 20px;
     }
 
     .wrapper-viveviajando2{
-        max-width: 25%;
+        max-width: 18%;
         position: relative;
         left: 62%;
-        top: -43%;
+        top: -45%;
     }
 
     .guayaquilcity{
