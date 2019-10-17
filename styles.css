@@ -6,8 +6,7 @@ html, body {
     background: linear-gradient(90.34deg, #0000FF 27.66%, #00FFFF 133.05%);
 }
 
-#navbar {
-    background: linear-gradient(90.34deg, #0000FF 27.66%, #00FFFF 133.05%);
+nav {
     position: fixed; /* Make it stick/fixed */
     top: 0; /* Stay on top */
     width: 100%; /* Full width */
@@ -15,14 +14,32 @@ html, body {
     z-index: 99;
     display: block;
     float: flex;
-    padding: 20px 0px 20px 0px;
 }
 
-#navbar.blue{
-    background: blue;
+nav.white{
+    background: white;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 .logo{
+    width: 132px;
+    height: 46px;
+    background: url(img/logoe92_mobile.svg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    top: 20px;
+    left: 9%;   
+}
+
+nav.white .logo{
+    width: 132px;
+    height: 46px;
+    background: url(img/logoe92_mobile2.svg);
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
     z-index: 1;
     position: relative;
@@ -37,8 +54,8 @@ html, body {
     cursor: pointer;
     fill: #ffffff;
     position: relative;
-    top: 20px;
-    left: 42%;
+    top: -10px;
+    left: 80%;
 }    
 
 h1 {
