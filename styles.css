@@ -1140,8 +1140,8 @@ p{
     }
 
     .equipomobile{
-        width: 858px;
-        height: 770px;
+        width: 1228px;
+        height: 1074px;
         background: url(img/team_1200.png);
         background-size: cover;
         background-position: center;
@@ -1149,26 +1149,26 @@ p{
         margin: 0 0 0 0;
         margin-bottom: 15px;
         position: relative;
-        top: -300px;
-        left: -7%;
+        top: -150px;
+        left: -5%;
     }
 
     .presentacion{
-        height: 1850px;
+        height: 2600px;
         width: 100%;
     }
 
     .wrapper-es92{
-        max-width: 28%;
+        max-width: 21%;
         position: relative;
-        left: 59%;
-        top: 280px;
+        left: 62%;
+        top: 540px;
         margin: 0 20px 50px 20px;
     }
 
     .equipomobile2{
-        width: 906px;
-        height: 770px;
+        width: 1237px;
+        height: 1097px;
         background: url(img/javier_1200.png);
         background-size: cover;
         background-position: center;
@@ -1176,14 +1176,14 @@ p{
         margin: 0 0 0 auto;
         margin-bottom: 15px;
         position: relative;
-        top: -600px;
+        top: -400px;
         left: 8%;
     }
 
     .wrapper-expertise{
-        max-width: 28%;
+        max-width: 20%;
         position: relative;
-        top: 30px;
+        top: 400px;
         left: 7%;
         margin: 0px 0px 50px 0px;
     }
