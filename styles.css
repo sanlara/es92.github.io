@@ -1313,8 +1313,8 @@ p{
 
     .wrapper-latina{
         position: relative;
-        left: 53%;
-        top: 200px;
+        left: 45%;
+        top: 160px;
         z-index: 1;
     }
 
@@ -1326,23 +1326,23 @@ p{
     }
 
     .img_latina{
-        width: 891px;
-        height: 700px;
-        background: url(img/latina_1200.png);
+        width: 1036px;
+        height: 776px;
+        background: url(img/latina_imac.png);
         background-size: cover;
         background-position: center;
         text-align: center;
         margin: 0 0 15px auto;
         position: relative;
-        left: -42%;
-        top: 50px;
+        left: -50%;
+        top: -20px;
     }
 
     .wrapper-latina2{
-        max-width: 25%;
+        max-width: 18%;
         position: relative;
         left: 62%;
-        top: -35%;
+        top: -48%;
     }
 
     .clientes{
