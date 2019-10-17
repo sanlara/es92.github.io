@@ -1202,9 +1202,14 @@ p{
     }
 
     .viveviajando{
-        height: 1100px;
+        height: 1000px;
         width: 100%;
         background: linear-gradient(180deg, #F4C14F 0%, #F4774F 100%);;
+    }
+
+    .viveviajando h3{
+        font-size: 35px;
+        margin-bottom: 5px;
     }
 
     .linea{ 
@@ -1217,7 +1222,7 @@ p{
     .wrapper-viveviajando{
         position: relative;
         left: 43%;
-        top: 220px;
+        top: 175px;
         z-index: 1;
     }
 
@@ -1231,14 +1236,14 @@ p{
         margin: 0 0 15px auto;
         position: relative;
         left: -47%;
-        top: 20px;
+        top: -30px;
     }
 
     .wrapper-viveviajando2{
         max-width: 18%;
         position: relative;
         left: 62%;
-        top: -45%;
+        top: -57%;
     }
 
     .guayaquilcity{
