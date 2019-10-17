@@ -240,10 +240,13 @@ p{
 }
 
 .servicios{
-    width: 300px;
-    height: 181px;
+    width: 320px;
+    height: 187px;
+    background: url(img/iconos_servicios_mobile.png);
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    margin: 15px 0 30px auto;
+    margin: 15px 0 60px auto;
 }
 
 .viveviajando{
@@ -1166,10 +1169,20 @@ p{
         margin: 0 20px 50px 20px;
     }
 
+    .servicios{
+        width: 455px;
+        height: 251px;
+        background: url(img/iconos_servicios_imac.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 15px 0px 60px 0px;
+    }
+
     .equipomobile2{
         width: 1237px;
         height: 1097px;
-        background: url(img/javier_1200.png);
+        background: url(img/javier_imac.png);
         background-size: cover;
         background-position: center;
         text-align: center;
@@ -1181,7 +1194,7 @@ p{
     }
 
     .wrapper-expertise{
-        max-width: 20%;
+        max-width: 24%;
         position: relative;
         top: 400px;
         left: 7%;
