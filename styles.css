@@ -1062,8 +1062,42 @@ p{
         font-family:'Poppins', sans-serif;
         overflow-x: hidden;
         background: linear-gradient(91.55deg, #0000FF 38.7%, #00FFFF 98.6%);
-    
     }
+
+
+    .logo{
+        width: 132px;
+        height: 46px;
+        background: url(img/logoe92_mobile.svg);
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        z-index: 1;
+        position: relative;
+        top: 24px;
+        left: 12%;   
+    }
+    
+    .menu{
+        height: 32px;
+        width: 44px;
+        z-index: 3;
+        cursor: pointer;
+        fill: #ffffff;
+        position: relative;
+        z-index: 1;
+        top: -10px;
+        left: 85%;
+    }   
+    
+    nav.white .logo{
+        background: url(img/logoe92_mobile2.svg); 
+    }
+    
+    nav.white .menu{
+        fill: #2515E3;
+        z-index: 1;
+    }   
 
     h1 {
         font-size: 105px;
