@@ -787,6 +787,20 @@ p{
         z-index: 1;
     }   
 
+    .logo2{
+        position: relative;
+        top: -200px;
+        left: 8.5%;   
+    }
+    
+      /* Position the close button (top right corner) */
+      .overlay .closebtn {
+        position: absolute;
+        top: 14px;
+        right: 12%;
+        font-size: 35px;
+      }
+
     h1 {
         font-size: 90px;
         font-weight: 900;
