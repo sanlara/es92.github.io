@@ -799,7 +799,7 @@ p{
         top: 14px;
         right: 12%;
         font-size: 35px;
-      }
+    }
 
     h1 {
         font-size: 90px;
@@ -1184,6 +1184,20 @@ p{
         fill: #2515E3;
         z-index: 1;
     }   
+
+    .logo2{
+        position: relative;
+        top: -260px;
+        left: 11.5%;   
+    }
+    
+      /* Position the close button (top right corner) */
+    .overlay .closebtn {
+        position: absolute;
+        top: 14px;
+        right: 13%;
+        font-size: 35px;
+    }
 
     h1 {
         font-size: 105px;
