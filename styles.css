@@ -1204,6 +1204,12 @@ p{
         top: -260px;
         left: 11.5%;   
     }
+
+    .overlay a {
+        padding: 15px;
+        text-decoration: none;
+        font-size: 30px;
+      }
     
       /* Position the close button (top right corner) */
     .overlay .closebtn {
