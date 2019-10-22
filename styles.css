@@ -1241,10 +1241,16 @@ p{
         line-height: 28px;
     }
 
+    .bienvenida .link{
+        font-size: 16px;   
+        font-weight: 700;
+        line-height: 28px;
+    }
+
     .wrapper-bienvenida{
         max-width: 30%;
         position: relative;
-        left: 5%;
+        left: 6%;
         top: 23%;
         margin: 0 0px 80px 125px;
     }
@@ -1253,7 +1259,7 @@ p{
         fill: white;
         position: absolute;
         top: -2px;
-        left: 225px;
+        left: 210px;
         margin: 0 auto 0px auto;
     }
 
@@ -1529,7 +1535,7 @@ p{
     }
 
     .wrapper-clientes{
-        max-width: 20%;
+        max-width: 18%;
         position: relative;
         left: 10%;
         top: 30%;
