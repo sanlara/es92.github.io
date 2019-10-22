@@ -501,7 +501,7 @@ p{
     .equipomobile{
         width: 433px;
         height: 419px;
-        background: url(img/team_tablet.png);
+        background: url(img/team_1200.png);
         background-size: cover;
         background-position: center;
         text-align: center;
@@ -536,7 +536,7 @@ p{
     .equipomobile2{
         width: 442px;
         height: 423px;
-        background: url(img/javier_tablet.png);
+        background: url(img/javier_1200.png);
         background-size: cover;
         background-position: center;
         text-align: center;
