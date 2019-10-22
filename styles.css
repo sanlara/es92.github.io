@@ -78,7 +78,20 @@ nav.white .menu{
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
   }
-  
+
+  .logo2{
+    width: 132px;
+    height: 46px;
+    background: url(img/logoe92_mobile.svg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    top: -180px;
+    left: 7%;   
+}
+
   /* The navigation links inside the overlay */
   .overlay a {
     padding: 10px;
@@ -98,8 +111,8 @@ nav.white .menu{
   /* Position the close button (top right corner) */
   .overlay .closebtn {
     position: absolute;
-    top: 15px;
-    right: 12.3%;
+    top: 10px;
+    right: 9%;
     font-size: 40px;
   }
   
