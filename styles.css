@@ -226,9 +226,9 @@ p{
 }
 
 .equipomobile{
-    width: 378px;
-    height: 401px;
-    background: url(img/team_mobile.png);
+    width: 425px;
+    height: 475px;
+    background: url(img/team_1200.png);
     background-size: cover;
     background-position: center;
     text-align: center;
