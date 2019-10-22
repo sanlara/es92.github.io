@@ -94,7 +94,7 @@ a {
 
 p{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     color: #ffffff;
     text-align: left;
     margin-bottom: 25px;
@@ -820,7 +820,7 @@ p{
     }
 
     .wrapper-es92{
-        max-width: 28%;
+        max-width: 25%;
         position: relative;
         left: 59%;
         top: 280px;
