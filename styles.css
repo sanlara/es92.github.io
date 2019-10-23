@@ -12,7 +12,7 @@ html, body {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #242f3f;
+    background-color: #0000FF;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ html, body {
     width: 30px;
     height: 30px;
     position: relative;
-    border: 4px solid #Fff;
+    border: 4px solid #00FFFF;
     animation: loader 2s infinite ease;
     z-index: 999;
   }
@@ -31,7 +31,7 @@ html, body {
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #fff;
+    background-color: #00FFFF;
     animation: loader-inner 2s infinite ease-in;
     z-index: 999;
   }
