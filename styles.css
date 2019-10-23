@@ -25,6 +25,7 @@ html, body {
     position: relative;
     border: 4px solid #Fff;
     animation: loader 2s infinite ease;
+    z-index: 1;
   }
   .loader-inner {
     vertical-align: top;
@@ -32,6 +33,7 @@ html, body {
     width: 100%;
     background-color: #fff;
     animation: loader-inner 2s infinite ease-in;
+    z-index: 1;
   }
   @keyframes loader {
     0% { transform: rotate(0deg);}
@@ -334,7 +336,7 @@ p{
     position: relative;
     top: 120px;
     left: 3%;
-    z-index: 1;
+    z-index: 2;
     text-align: center;
     margin: auto;
 }
