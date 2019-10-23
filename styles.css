@@ -1358,12 +1358,6 @@ p{
     }
 
     .servicios{
-        width: 455px;
-        height: 251px;
-        background: url(img/iconos_servicios_imac.png);
-        background-size: cover;
-        background-position: center;
-        text-align: center;
         margin: 15px 0px 60px 0px;
     }
 
