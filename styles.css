@@ -17,8 +17,9 @@ html, body {
     justify-content: center;
     align-items: center;
     z-index: 999;
-  }
-  .loader {
+}
+
+.loader {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -26,23 +27,26 @@ html, body {
     border: 4px solid #00FFFF;
     animation: loader 2s infinite ease;
     z-index: 999;
-  }
-  .loader-inner {
+}
+
+.loader-inner {
     vertical-align: top;
     display: inline-block;
     width: 100%;
     background-color: #00FFFF;
     animation: loader-inner 2s infinite ease-in;
     z-index: 999;
-  }
-  @keyframes loader {
+}
+
+@keyframes loader {
     0% { transform: rotate(0deg);}
     25% { transform: rotate(180deg);}
     50% { transform: rotate(180deg);}
     75% { transform: rotate(360deg);}
     100% { transform: rotate(360deg);}
-  }
-  @keyframes loader-inner {
+}
+
+@keyframes loader-inner {
     0% { height: 0%;}
     25% { height: 0%;}
     50% { height: 100%;}
@@ -112,18 +116,18 @@ nav.white .menu{
     background-color: rgba(0, 0, 255, 0.9); /* Black w/opacity */
     overflow-y: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-  }
+}
   
   /* Position the content inside the overlay */
-  .overlay-content {
+.overlay-content {
     position: relative;
     top: 25%; /* 25% from the top */
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-  }
+}
 
-  .logo2{
+.logo2{
     width: 132px;
     height: 46px;
     background: url(img/logoe92_mobile.svg);
@@ -136,8 +140,8 @@ nav.white .menu{
     left: 7%;   
 }
 
-  /* The navigation links inside the overlay */
-  .overlay a {
+/* The navigation links inside the overlay */
+.overlay a {
     padding: 10px;
     text-decoration: none;
     font-size: 24px;
@@ -145,30 +149,31 @@ nav.white .menu{
     color: #ffffff;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
-  }
+}
   
-  /* When you mouse over the navigation links, change their color */
+/* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
     color: #00FFC4;
-  }
+}
   
-  /* Position the close button (top right corner) */
-  .overlay .closebtn {
+/* Position the close button (top right corner) */
+.overlay .closebtn {
     position: absolute;
     top: 10px;
     right: 9%;
     font-size: 40px;
-  }
+}
   
-  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 450px) {
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+@media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
       font-size: 40px;
       top: 15px;
       right: 35px;
-    }
+}
 }
 
 h1 {
