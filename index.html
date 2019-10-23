@@ -44,8 +44,12 @@
 </head>
 
     <body>
+
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
         
-        <header>
+        <header class="content">
             
             <nav id="navbar">
                 <a href="index.html"><div class="logo"></div></a>
@@ -80,7 +84,7 @@
  
         </header>
 
-    <main class="main">
+    <main class="main content">
         <section class="bienvenida" id="bienvenida">
 
             <div class="wrapper-bienvenida animated slideInDown">
@@ -226,6 +230,11 @@
     </main>
 
 </body>
+<script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+</script>
 <script src="main.js"></script>
 <script>
         function openNav() {
