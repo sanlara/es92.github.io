@@ -45,7 +45,7 @@
 
     <body>
 
-        <div class="loader-wrapper">
+        <div class="loader-wrapper" id="overlay">
             <span class="loader"><span class="loader-inner"></span></span>
         </div>
         
@@ -231,9 +231,14 @@
 
 </body>
 <script>
-        $(window).on("load",function(){
-          $(".loader-wrapper").fadeOut("slow");
-        });
+        var overlay =
+        document.getElementById("overlay");
+
+        window.addEventListener('load', function()
+        {
+            overlay.style.display = 'none';
+        })
+
 </script>
 <script src="main.js"></script>
 <script>
