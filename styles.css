@@ -874,14 +874,18 @@ p{
     }
 
     h1 {
-        font-size: 90px;
+        font-size: 80px;
         font-weight: 900;
         margin-bottom: 30px;
-        line-height: 75px;
+        line-height: 65px;
         background: linear-gradient(180deg, #00FFC4 -8.89%, #00B2FF 100.73%););
         /* clip hackery */
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+        font-size: 16px;
     }
 
     .titulo-principal br{
@@ -897,7 +901,7 @@ p{
         max-width: 38%;
         position: relative;
         left: 0%;
-        top: 18%;
+        top: 20%;
         margin: 0 0px 80px 125px;
     }
 
