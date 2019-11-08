@@ -19,6 +19,15 @@ html, body {
     z-index: 999;
 }
 
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: none;
+}  
+
 .loader {
     display: inline-block;
     width: 30px;
@@ -869,6 +878,10 @@ p{
         font-weight: 900;
         margin-bottom: 30px;
         line-height: 75px;
+        background: linear-gradient(180deg, #00FFC4 -8.89%, #00B2FF 100.73%););
+        /* clip hackery */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     .titulo-principal br{
