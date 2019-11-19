@@ -1026,7 +1026,7 @@ p{
     .wrapper-expertise{
         max-width: 26%;
         position: relative;
-        top: 0px;
+        top: -50px;
         left: 9%;
         margin: 0px 0px 50px 0px;
     }
