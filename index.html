@@ -129,9 +129,23 @@
 
             <div class="wrapper-expertise" data-aos="fade-down" data-aos-duration="900">
 
-                <h2>Nuestro expertise</h2>
-                <p>Cuidamos cada proyecto en su totalidad detectando <span class="bold">oportunidades de negocio</span> y aportando el máximo valor, con el foco siempre puesto en las personas.</p>
-                <div class="servicios"></div>
+                <h2>Nos encanta lo que hacemos</h2>
+                <p>Desde la conceptualización hasta la producción, lo manejamos todo. Cuidamos cada proyecto en su totalidad, <span class="bold">entregando valor</span> en cada etapa. Los servicios que ofrecemos incluye lo siguiente:</p>
+                
+                <button class="accordion">Brand strategy & development </button>
+                <div class="panel">
+                <p class="text-accordion">Arquitectura de marca | Identidad e imagen corporativa | Dirección de arte | Packaging | Diseño de piezas </p>
+                </div>
+
+                <button class="accordion">Digital business & strategy</button>
+                <div class="panel">
+                <p class="text-accordion">	Campañas en plataformas digitales | Diseño UX UI | Inbound Marketing | Analítica digital | Community Management | Programación Web </p>
+                </div>
+
+                <button class="accordion">Advertising</button>
+                <div class="panel">
+                <p class="text-accordion">	Fotografía publicitaria | Producción audiovisual | Dirección de arte </p>
+                </div>
             </div>
         
             <div class="equipomobile2"></div>
@@ -241,7 +255,6 @@
         window.addEventListener('load', function(){
             setTimeout(function(){ $('.loader-wrapper').fadeOut('slow'); }, 1500);
         })
-
 </script>
 <script src="main.js"></script>
 <script>
@@ -258,4 +271,41 @@
 <script>
   AOS.init();
 </script>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>-
+
 </html>

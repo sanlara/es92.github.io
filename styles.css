@@ -387,7 +387,33 @@ p{
     margin: 0 auto 50px auto;
 }
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: none;
+    color: #2022E3;
+    cursor: pointer;
+    padding: 10px;
+    width: 90%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+
+.text-accordion{
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: left;
+    line-height: 20px;
+    margin-block-start: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+  
 .equipomobile2{
+    position: relative;
     width: 378px;
     height: 401px;
     background: url(img/javier_1200.png);
@@ -396,16 +422,6 @@ p{
     text-align: center;
     margin: 0 0 0 auto;
     margin-bottom: 15px;
-}
-
-.servicios{
-    width: 320px;
-    height: 187px;
-    background: url(img/iconos_servicios_mobile.png);
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    margin: 15px 0 60px 0px;
 }
 
 .viveviajando{
@@ -1003,18 +1019,14 @@ p{
         margin: 0 0 0 auto;
         margin-bottom: 15px;
         position: relative;
-        top: -600px;
+        top: -700px;
         left: 8%;
-    }
-
-    .servicios{
-        margin: 0px 0 60px 0px;
     }
 
     .wrapper-expertise{
         max-width: 26%;
         position: relative;
-        top: 30px;
+        top: 0px;
         left: 9%;
         margin: 0px 0px 50px 0px;
     }
@@ -1421,10 +1433,6 @@ p{
         left: 62%;
         top: 540px;
         margin: 0 20px 50px 20px;
-    }
-
-    .servicios{
-        margin: 15px 0px 60px 0px;
     }
 
     .equipomobile2{
