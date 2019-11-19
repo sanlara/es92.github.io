@@ -1472,9 +1472,9 @@ p{
         text-align: center;
         margin: 0 0 0 auto;
         margin-bottom: 15px;
-        position: relative;
-        top: -400px;
-        left: 8%;
+        position: absolute;
+        top: 2400px;
+        left: 900px;
     }
 
     .wrapper-expertise{
