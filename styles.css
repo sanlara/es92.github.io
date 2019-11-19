@@ -389,16 +389,18 @@ p{
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: none;
+    background-color: rgb(255, 255, 255);
     color: #2022E3;
     cursor: pointer;
-    padding: 10px;
+    padding: 12px;
     width: 90%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
     margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
 }
 
 .text-accordion{
@@ -411,6 +413,32 @@ p{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+.active, .accordion:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: rgb(245, 14, 14);
+    float: right;
+    margin-left: 5px;
+  }
+  
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    background-color: none;
+    display: none;
+    overflow: hidden;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
   
 .equipomobile2{
     position: relative;
@@ -1018,9 +1046,9 @@ p{
         text-align: center;
         margin: 0 0 0 auto;
         margin-bottom: 15px;
-        position: relative;
-        top: -700px;
-        left: 8%;
+        position: absolute;
+        top: 1650px;
+        left: 700px;
     }
 
     .wrapper-expertise{
