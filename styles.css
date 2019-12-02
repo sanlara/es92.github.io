@@ -191,7 +191,7 @@ h1 {
     color: #FAAB2A;
     text-align: left;
     margin-bottom: 18px;
-    line-height: 35px;
+    line-height: 37px;
     background: linear-gradient(180deg, #00FFC4 -8.89%, #00B2FF 100.73%););
     /* clip hackery */
     -webkit-background-clip: text;
@@ -199,7 +199,7 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     color: #ffffff;
     text-align: left;
@@ -345,8 +345,8 @@ p{
 }
 
 .emojis{
-    width: 379px;
-    height: 385px;
+    width: 359px;
+    height: 365px;
     position: relative;
     top: 120px;
     left: 3%;
@@ -384,7 +384,7 @@ p{
     position: relative;
     left: 0%;
     top: 2%;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 100px auto;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -651,22 +651,22 @@ p{
     }
 
     h1 {
-        font-size: 65px;
+        font-size: 55px;
         font-weight: 900;
         margin-bottom: 30px;
-        line-height: 60px;
+        line-height: 50px;
     }
 
     .bienvenida{
-        height: 1000px;
+        height: 700px;
         width: 100%;
     }
 
     .wrapper-bienvenida{
-        max-width: 80%;
+        max-width: 50%;
         position: relative;
-        left: 0%;
-        top: 12%;
+        left: -16%;
+        top: 18%;
         margin: 0 auto 80px auto;
     }
 
@@ -674,12 +674,8 @@ p{
         width: 501px;
         height: 504px;
         position: relative;
-        top: 50px;
-        left: 20%;
-    }
-
-    .titulo-principal br{
-        display: none;
+        top: -300px;
+        left: 55%;
     }
     
     .descripcion-bienvenida br{
@@ -1325,6 +1321,490 @@ p{
     }
 
     h1 {
+        font-size: 72px;
+        font-weight: 900;
+        margin-bottom: 30px;
+        line-height: 65px;
+    }
+
+    .titulo-principal br{
+        display: block;
+    }
+
+    .bienvenida{
+        height: 880px;
+        width: 100%;
+    }
+
+    .bienvenida p{
+        font-size: 16px;   
+        font-weight: 300;
+        line-height: 28px;
+    }
+
+    .bienvenida .bold{
+        font-size: 16px;   
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .bienvenida .link{
+        font-size: 16px;   
+        font-weight: 700;
+        line-height: 28px;
+    }
+
+    .wrapper-bienvenida{
+        max-width: 30%;
+        position: relative;
+        left: 6%;
+        top: 23%;
+        margin: 0 0px 80px 125px;
+    }
+
+    .circulo{
+        fill: white;
+        position: absolute;
+        top: -2px;
+        left: 210px;
+        margin: 0 auto 0px auto;
+    }
+
+    .circulo2{
+        fill: white;
+        position: absolute;
+        left: 28%;
+        top: 87%;
+        margin: 0 auto 0px auto;
+    }
+
+    .circulo2:hover {
+        fill: #F2F2F2;
+        cursor: pointer;
+    }
+
+    .middle{
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 1;
+    }
+
+    .mouse{
+        width: 20px;
+        height: 33px;
+        border: 2px solid #01D6E4;
+        border-radius: 80px;
+    }
+
+    .mouse::before{
+        content: "";
+        width: 6px;
+        height: 6px;
+        position: absolute;
+        top: 10px;
+        background: #01D6E4;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        opacity: 1;
+        animation: mouse 1.2s infinite;
+    }
+
+    @keyframes mouse {
+        from{
+        opacity: 1;
+        top: 9px;
+        }
+        to{
+        opacity: 0;
+        top: 30px;
+        }
+    }
+
+    .emojis{
+        width: 650px;
+        height: 660px;
+        position: relative;
+        top: -350px;
+        left: 50%;
+    }
+
+    .equipomobile{
+        width: 1058px;
+        height: 950px;
+        background: url(img/team_1200.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 0 0;
+        margin-bottom: 15px;
+        position: relative;
+        top: -150px;
+        left: -10%;
+    }
+
+    .presentacion{
+        height: 2600px;
+        width: 100%;
+    }
+
+    .wrapper-es92{
+        max-width: 22%;
+        position: relative;
+        left: 65%;
+        top: 540px;
+        margin: 0 20px 50px 20px;
+    }
+
+    .equipomobile2{
+        width: 1137px;
+        height: 997px;
+        background: url(img/javier_1200.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 0 auto;
+        margin-bottom: 15px;
+        position: absolute;
+        top: 2400px;
+        left: 700px;
+    }
+
+    .wrapper-expertise{
+        max-width: 25%;
+        position: relative;
+        top: 350px;
+        left: 12%;
+        margin: 0px 0px 50px 0px;
+    }
+
+
+    /* Style the buttons that are used to open and close the accordion panel */
+    .accordion {
+        background-color: rgb(255, 255, 255);
+        color: #2022E3;
+        cursor: pointer;
+        padding: 40px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+
+    .text-accordion{
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: left;
+        line-height: 24px;
+        margin-block-start: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .active, .accordion:hover {
+        background-color: rgb(241, 241, 241);
+    }
+
+    .accordion:after {
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 16px;
+        color: rgb(245, 14, 14);
+        float: right;
+        margin-left: 5px;
+    }
+    
+    .active:after {
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
+    }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+        background-color: none;
+        display: none;
+        overflow: hidden;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+
+    .viveviajando{
+        height: 1000px;
+        width: 100%;
+        background: linear-gradient(180deg, #F4C14F 0%, #F4774F 100%);;
+    }
+
+    h3{
+        font-size: 35px;
+        margin-bottom: 5px;
+        line-height: 40px;
+    }
+
+    .linea{ 
+        position: relative;
+        left: -120px;
+        top: 53px;
+        margin-bottom: 30px;
+    }
+
+    .wrapper-viveviajando{
+        position: relative;
+        left: 43%;
+        top: 175px;
+        z-index: 1;
+    }
+
+    .img_viveviajando{
+        width: 1103px;
+        height: 844px;
+        background: url(img/fotoviveviajando_imac.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: -40%;
+        top: -30px;
+    }
+
+    .wrapper-viveviajando2{
+        max-width: 18%;
+        position: relative;
+        left: 66%;
+        top: -57%;
+    }
+
+    .guayaquilcity{
+        height: 1000px;
+        width: 100%;
+        background: linear-gradient(121.12deg, #219FFF -5.8%, #002640 80.51%);;
+    }
+
+    .circulo3{
+        fill: white;
+        position: absolute;
+        left: 35%;
+        top: 88%;
+        margin: 0 auto 0px auto;
+    }
+
+    .circulo3:hover {
+        fill: #F2F2F2;
+        cursor: pointer;
+    }
+
+    .wrapper-guayaquilcity{
+        max-width: 25%;
+        position: relative;
+        left: 30%;
+        top: 14.5%;
+        z-index: 1;
+        text-align: right;
+    }
+
+    .wrapper-guayaquilcity p{
+        text-align: right;
+    }
+
+   .guayaquilcity .linea{ 
+        position: relative;
+        left: 120px;
+        top: 53px;
+        margin-bottom: 30px;
+    }
+
+    .wrapper-guayaquilcity2{
+        max-width: 18%;
+        position: relative;
+        left: 15%;
+        top: -62%;
+    }
+
+    .img_guayaquilcity{
+        width: 1084px;
+        height: 886px;
+        background: url(img/armadura_imac.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: 0%;
+        top: -40px;
+    }
+    
+    .latina{
+        height: 1000px;
+        width: 100%;
+        background: linear-gradient(180deg, #2950D3 -10.04%, #191D29 100%);;
+    }
+
+    .wrapper-latina{
+        position: relative;
+        left: 45%;
+        top: 160px;
+        z-index: 1;
+    }
+
+    .latina .linea{ 
+        position: relative;
+        left: -120px;
+        top: 53px;
+        margin-bottom: 30px;
+    }
+
+    .img_latina{
+        width: 1036px;
+        height: 776px;
+        background: url(img/latina_imac.png);
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin: 0 0 15px auto;
+        position: relative;
+        left: -50%;
+        top: -20px;
+    }
+
+    .wrapper-latina2{
+        max-width: 18%;
+        position: relative;
+        left: 62%;
+        top: -48%;
+    }
+
+    .clientes{
+        height: 1000px;
+        width: 100%;
+        background: #ffffff;
+    }
+
+    .wrapper-clientes{
+        max-width: 22%;
+        position: relative;
+        left: 10%;
+        top: 30%;
+    }
+
+    .img_clientes{
+        width: 795px;
+        height: 525px;
+        background: url(img/logos_clientes_es92_imac.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        left: 16%;
+        top: -55px;
+    }
+
+    .clientes br{
+        display: block;
+    }
+
+    .contacto h3 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 45px;
+        position: relative;
+        top: 130px;
+        left: 10%;
+    }
+
+    .footer{
+        font-size: 12px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: left;
+        line-height: 24px;
+        position: relative;
+        left: 38%;
+        top: -10%;
+    }
+
+    .wrapper-contacto{
+        position: relative;
+        left: 50%;
+        top: 10%;
+        margin-bottom: 70px;
+    }
+
+    .wrapper-contacto2{
+        position: relative;
+        left: 70%;
+        top: -35%;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+
+    html, body {
+        margin: 0;
+        font-family:'Poppins', sans-serif;
+        overflow-x: hidden;
+        background: linear-gradient(91.55deg, #0000FF 38.7%, #00FFFF 98.6%);
+    }
+
+    .logo{
+        width: 132px;
+        height: 46px;
+        background: url(img/logoe92_mobile.svg);
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        z-index: 1;
+        position: relative;
+        top: 24px;
+        left: 12%;   
+    }
+    
+    .menu{
+        height: 35px;
+        width: 45px;
+        z-index: 3;
+        cursor: pointer;
+        fill: #ffffff;
+        position: relative;
+        z-index: 1;
+        top: -10px;
+        left: 85%;
+    }   
+    
+    nav.white .logo{
+        background: url(img/logoe92_mobile2.svg); 
+    }
+    
+    nav.white .menu{
+        fill: #2515E3;
+        z-index: 1;
+    }   
+
+    .logo2{
+        position: relative;
+        top: -260px;
+        left: 11.5%;   
+    }
+
+    .overlay a {
+        padding: 15px;
+        text-decoration: none;
+        font-size: 30px;
+      }
+    
+      /* Position the close button (top right corner) */
+    .overlay .closebtn {
+        position: absolute;
+        top: 14px;
+        right: 12.75%;
+        font-size: 35px;
+    }
+
+    h1 {
         font-size: 90px;
         font-weight: 900;
         margin-bottom: 30px;
@@ -1746,3 +2226,4 @@ p{
     
 
 }
+
