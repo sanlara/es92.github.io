@@ -1270,7 +1270,6 @@ p{
         background: linear-gradient(91.55deg, #0000FF 38.7%, #00FFFF 98.6%);
     }
 
-
     .logo{
         width: 132px;
         height: 46px;
@@ -1285,8 +1284,8 @@ p{
     }
     
     .menu{
-        height: 32px;
-        width: 44px;
+        height: 35px;
+        width: 45px;
         z-index: 3;
         cursor: pointer;
         fill: #ffffff;
@@ -1326,10 +1325,10 @@ p{
     }
 
     h1 {
-        font-size: 105px;
+        font-size: 90px;
         font-weight: 900;
         margin-bottom: 30px;
-        line-height: 85px;
+        line-height: 80px;
     }
 
     .titulo-principal br{
@@ -1342,13 +1341,13 @@ p{
     }
 
     .bienvenida p{
-        font-size: 18px;   
+        font-size: 16px;   
         font-weight: 300;
         line-height: 28px;
     }
 
     .bienvenida .bold{
-        font-size: 18px;   
+        font-size: 16px;   
         font-weight: 600;
         line-height: 28px;
     }
@@ -1429,10 +1428,10 @@ p{
     }
 
     .emojis{
-        width: 800px;
-        height: 810px;
+        width: 700px;
+        height: 710px;
         position: relative;
-        top: -450px;
+        top: -400px;
         left: 50%;
     }
 
@@ -1474,15 +1473,69 @@ p{
         margin-bottom: 15px;
         position: absolute;
         top: 2400px;
-        left: 800px;
+        left: 1050px;
     }
 
     .wrapper-expertise{
         max-width: 19%;
         position: relative;
-        top: 400px;
+        top: 350px;
         left: 12%;
         margin: 0px 0px 50px 0px;
+    }
+
+
+    /* Style the buttons that are used to open and close the accordion panel */
+    .accordion {
+        background-color: rgb(255, 255, 255);
+        color: #2022E3;
+        cursor: pointer;
+        padding: 40px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+
+    .text-accordion{
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: left;
+        line-height: 24px;
+        margin-block-start: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .active, .accordion:hover {
+        background-color: rgb(241, 241, 241);
+    }
+
+    .accordion:after {
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 16px;
+        color: rgb(245, 14, 14);
+        float: right;
+        margin-left: 5px;
+    }
+    
+    .active:after {
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
+    }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+        background-color: none;
+        display: none;
+        overflow: hidden;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
     }
 
     .viveviajando{
