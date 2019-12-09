@@ -344,6 +344,19 @@ p{
     margin: 0 auto 0px auto;
 }
 
+.wrapper-sm{
+    width: 0%;
+    position: absolute;
+    left: 85%;
+    top: 55%;
+    margin: 0;
+    display: none;
+}
+
+.sm{
+    margin-bottom: 10px;
+}
+
 .emojis{
     width: 359px;
     height: 365px;
@@ -663,7 +676,7 @@ p{
     }
 
     .wrapper-bienvenida{
-        max-width: 40%;
+        max-width: 50%;
         position: relative;
         left: -16%;
         top: 18%;
@@ -888,6 +901,7 @@ p{
         z-index: 1;
         top: -10px;
         left: 85%;
+        display: none;
     }   
     
     nav.white .logo{
@@ -1421,6 +1435,19 @@ p{
         opacity: 0;
         top: 30px;
         }
+    }
+    
+    .wrapper-sm{
+        width: 0%;
+        position: absolute;
+        left: 85%;
+        top: 55%;
+        margin: 0;
+        display: block;
+    }
+
+    .sm{
+        margin-bottom: 10px;
     }
 
     .emojis{
