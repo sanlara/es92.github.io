@@ -101,6 +101,7 @@ nav.white{
     z-index: 1;
     top: -10px;
     left: 80%;
+    display: none;
 }   
 
 nav.white .logo{
@@ -844,6 +845,17 @@ p{
         top: 20%;
         margin-bottom: 70px;
     }
+
+    .contacto h3{
+        margin-top: 20px;
+        position: relative;
+        left: 10%;
+        top: 40%;
+        background: linear-gradient(180deg, #00FFC4 -8.89%, #00B2FF 100.73%););
+        /* clip hackery */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     
     .wrapper-contacto2{
         position: relative;
@@ -901,7 +913,6 @@ p{
         z-index: 1;
         top: -10px;
         left: 85%;
-        display: none;
     }   
     
     nav.white .logo{
@@ -952,7 +963,7 @@ p{
     }
 
     .wrapper-bienvenida{
-        max-width: 38%;
+        max-width: 39%;
         position: relative;
         left: 0%;
         top: 20%;
@@ -1268,6 +1279,24 @@ p{
         left: 70%;
         top: -35%;
     }
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .wrapper-sm{
+        width: 0%;
+        position: absolute;
+        left: 95%;
+        top: 45%;
+        margin: 0;
+        display: block;
+    }
+
+    .sm{
+        margin-bottom: 10px;
+    }
+
 
 }
 
