@@ -711,7 +711,7 @@ p{
     }
 
     .presentacion{
-        height: 1200px;
+        height: 1000px;
         width: 100%;
     }
     
@@ -758,17 +758,24 @@ p{
         background-size: cover;
         background-position: center;
         text-align: center;
-        margin: 0 0 15px auto;
+        margin: 0 0 15px 0;
         position: relative;
         left: -5%;
         top: 120px;
     }
 
+    .wrapper-viveviajando2{
+        max-width: 55%;
+        position: relative;
+        left: 8%;
+        top: 15%;
+    }
+
     .circulo2{
         fill: white;
         position: absolute;
-        left: 15.5%;
-        top: 83%;
+        left: 17%;
+        top: 86%;
         margin: 0 auto 0px auto;
     }
 
@@ -776,6 +783,19 @@ p{
         height: 1300px;
         width: 100%;
         background: linear-gradient(99.33deg, #219FFF -5.8%, #002640 80.51%);
+    }
+
+    .wrapper-guayaquilcity{
+        position: relative;
+        left: 33%;
+        top: 8%;
+    }
+
+    .wrapper-guayaquilcity2{
+        max-width: 55%;
+        position: relative;
+        left: 33%;
+        top: 15%;
     }
 
     .img_guayaquilcity{
@@ -794,8 +814,8 @@ p{
     .circulo3{
         fill: white;
         position: absolute;
-        left: 16%;
-        top: 83%;
+        left: 17%;
+        top: 86%;
         margin: 0 auto 0px auto;
     }
 
@@ -812,10 +832,23 @@ p{
         width: 815px;
         height: 626px;
         text-align: center;
-        margin: 0 0 70px auto;
+        margin: 0 0 70px 0;
         position: relative;
         left: 0%;
         top: 100px;
+    }
+
+    .wrapper-latina{
+        position: relative;
+        left: 8%;
+        top: 8%;
+    }
+    
+    .wrapper-latina2{
+        max-width: 55%;
+        position: relative;
+        left: 8%;
+        top: 12%;
     }
 
     .clientes{
@@ -1067,9 +1100,9 @@ p{
         text-align: center;
         margin: 0 0 0 auto;
         margin-bottom: 15px;
-        position: absolute;
-        top: 1650px;
-        left: 700px;
+        position: relative ;
+        top: -35%;
+        left: 10%;
     }
 
     .wrapper-expertise{
@@ -1109,7 +1142,7 @@ p{
         text-align: center;
         margin: 0 0 15px auto;
         position: relative;
-        left: -42%;
+        left: -47%;
         top: 20px;
     }
 
