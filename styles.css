@@ -383,12 +383,12 @@ p{
     background-size: cover;
     background-position: center;
     text-align: center;
-    margin: 45px 0 0 auto;
+    margin: 85px 0 0 auto;
     margin-bottom: 15px;
 }
 
 .presentacion{
-    height: 1780px;
+    height: 1900px;
     width: 100%;
 }
 
@@ -462,15 +462,13 @@ p{
   }
   
 .equipomobile2{
-    position: relative;
-    width: 378px;
-    height: 401px;
+    width: 425px;
+    height: 475px;
     background: url(img/javier_1200.png);
     background-size: cover;
     background-position: center;
     text-align: center;
-    margin: 0 0 0 auto;
-    margin-bottom: 15px;
+    margin: 0 0 15px auto;
 }
 
 .viveviajando{
