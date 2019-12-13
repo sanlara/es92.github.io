@@ -296,7 +296,7 @@ p{
 .circulo2{
     fill: white;
     position: absolute;
-    left: 34%;
+    left: 31%;
     top: 88%;
     margin: 0 auto 0px auto;
 }
@@ -318,7 +318,7 @@ p{
 .circulo3{
     fill: white;
     position: absolute;
-    left: 34%;
+    left: 31%;
     top: 89%;
     margin: 0 auto 0px auto;
 }
@@ -1934,7 +1934,7 @@ p{
         max-width: 32%;
         position: relative;
         left: 6%;
-        top: 23%;
+        top: 27%;
         margin: 0 0px 80px 125px;
     }
 
@@ -2016,7 +2016,7 @@ p{
         width: 700px;
         height: 710px;
         position: relative;
-        top: -400px;
+        top: -380px;
         left: 50%;
     }
 
