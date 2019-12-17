@@ -4,7 +4,7 @@
     <meta charset="UTF8">
     <meta name="viewport" content="with=device-with, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Estudio 92 | Branding & Negocio Digital</title>
+    <title>Estudio 92 | Smart design for top brands.</title>
     <meta name="Description" CONTENT="Somos un estudio de diseño, expertos en branding, estrategias digitales y publicidad ubicados en Ecuador.">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
@@ -12,7 +12,32 @@
     <link rel="stylesheet" href="animate.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800" rel="stylesheet">
+    <script> //smooth scrolling
+        $(document).ready(function(){
+    $('a[href^="#"]').on('click',function(e) {
+	e.preventDefault();
+	
+    var target = this.hash;
+    var $target = $(target);
 
+    //scroll and show hash
+    $('html,body').animate({
+        'scrollTop': $target.offset().top
+    }, 1000, 'swing', function () {
+        window.location.hash = target;
+    });});});
+    </script>
+
+    <script type="text/javascript">
+        $(window).on('scroll', function() {
+            if($(window).scrollTop()) {
+            $('nav').addClass('white');
+            }
+            else {
+                $('nav').removeClass('white')
+            }
+        })
+    </script>
 
 </head>
 
@@ -65,7 +90,7 @@
 
             <div class="wrapper-bienvenida animated slideInDown">
 
-                <h1 class="titulo-principal">SMART<br>DESIGN FOR<br>AMAZING BRANDS<br></h1>
+                <h1 class="titulo-principal">SMART<br>DESIGN FOR TOP BRANDS<br></h1>
                 <p class="descripcion-bienvenida">Somos <span class="bold">Estudio 92.</span> Diseñamos marcas, estrategias y productos para <br> compañías líderes de sus industrias.</p>
                 
                 <div class="wrapper-flecha">
@@ -115,7 +140,7 @@
 
             <div class="wrapper-es92" data-aos="fade-down" data-aos-duration="900">
                 
-                <h2>Lo que nos caracteriza.</h2>
+                <h2>Nuestra forma de trabajar</h2>
                 <p>Somos un <span class="bold">equipo de expertos</span> en diseño, estrategia y negocio digital. Comprendemos el diseño como un activo a incorporar en el ADN de cualquier empresa, para garantizar el éxito de sus productos o servicios. 
                 <br><br>Nos gusta trabajar en base de objetivos concretos, para lograr resultados inigualables. Con un sello inconfundible, nuestro trabajo se ha convertido en una apuesta para compañías que quieren transformarse y crear un cambio significativo en su industria.</p>
 
